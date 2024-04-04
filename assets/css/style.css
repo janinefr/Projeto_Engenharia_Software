@@ -34,7 +34,7 @@ a:hover {
 }
 
 img{
-    max-width: 100px;
+    max-width: 100%;
     height: auto;
 }
 
@@ -81,7 +81,7 @@ img{
     background-size: cover;
 }
 
-/* section title */
+/* sobre nos */
 .section-title{
     margin-bottom: 40px;
 }
@@ -97,4 +97,21 @@ img{
     max-width: 700px;
     margin-left: auto;
     margin-right: auto;
+}
+
+
+.bg-custom-color{
+    background-color: #f0f0f0;
+}
+
+/* icon */
+.iconbox{
+    width: 60px;
+    height: 60px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--tufts-blue);
+    font-size: 34px;
+    flex: none;
 }
