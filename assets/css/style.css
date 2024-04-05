@@ -22,6 +22,16 @@ body {
     color: white;
 }
 
+/* navbar */
+.custom-navbar{
+    background-color: transparent; /* Define o plano de fundo como transparente */
+    position: absolute; /* Posiciona a barra de navegação de forma absoluta */
+    top: 0; /* Alinha a barra de navegação no topo */
+    width: 100%; /* Define a largura da barra de navegação como 100% */
+    z-index: 999;
+}
+
+
 
 a{
     text-decoration: none;
@@ -76,7 +86,7 @@ img{
 /* hero */
 
 #hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.507), rgba(0, 0, 0, 0.438));
+    background: linear-gradient(rgba(0,0,0, 0.507), rgba(0,0,0, 0.438)), url(../images/bg-login.jpg);
     background-position: center;
     background-size: cover;
 }
