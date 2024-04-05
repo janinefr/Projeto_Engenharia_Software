@@ -29,12 +29,20 @@
 
 .side-image{
     background-image: url(../images/bg.jpg);
-    
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
     border-radius: 10px 0 0 10px;
 }
+
+.side-image-cadastro{
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    border-radius: 10px 0 0 10px;
+}
+
 
 .text{
     position: absolute;
@@ -148,8 +156,14 @@ span a:hover{
     .side-image{
         border-radius: 10px 10px 0 0;
         background-position: center;
+    }
+
+    .side-image-cadastro{
+        border-radius: 10px 10px 0 0;
+        background-position: center;
         height: 100px;
     }
+
     .text{
         position: absolute;
         top: 60%;
