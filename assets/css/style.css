@@ -89,6 +89,14 @@ img{
     background: linear-gradient(rgba(0,0,0, 0.507), rgba(0,0,0, 0.438)), url(../images/bg-login.jpg);
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
+}
+@media only screen and (max-width: 768px){
+    #hero{
+        background: linear-gradient(rgba(0,0,0, 0.507), rgba(0,0,0, 0.438)), url(../images/bg-login-mobile.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
 }
 
 /* sobre nos */

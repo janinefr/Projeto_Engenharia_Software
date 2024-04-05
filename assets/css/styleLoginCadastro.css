@@ -148,6 +148,7 @@ span a:hover{
     .side-image{
         border-radius: 10px 10px 0 0;
         background-position: center;
+        height: 100px;
     }
     .text{
         position: absolute;
