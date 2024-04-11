@@ -4,3 +4,31 @@
     font-family: "Satoshi", sans-serif;
 }
 
+/* barra de pesquisa */
+.search{
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    background-color: #00000006;
+    width: 400px !important;
+    margin: 20px auto;
+    border-radius: 20px;
+    padding: 5px 10px;
+    color: #4580BFff;
+}
+
+#searchInput{
+    padding: 8px;
+    border: none;
+    background-color: transparent;
+    width: 100%;
+    outline: none;
+}
+
+.ri-search-eye-fill{
+    font-size: 20px;
+}
+
+.search label{
+    height: 20px;
+}
