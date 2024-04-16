@@ -1,0 +1,11 @@
+@import url(../css/satoshi.css);
+
+* {
+    font-family: "Satoshi", sans-serif;
+}
+
+
+
+#projetos_descricao{
+    padding-top: 140px;
+}

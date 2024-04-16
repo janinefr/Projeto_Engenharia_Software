@@ -2,6 +2,8 @@
 
 /* paleta de cores  */
 
+
+
 :root {
     --steel-blue: #4580BFff;
     --tufts-blue: #458BD6ff;
@@ -21,6 +23,8 @@ body {
     line-height: 1.7;
     color: white;
 }
+
+/* chatbot */
 
 /* navbar */
 .custom-navbar{
