@@ -1,0 +1,185 @@
+@import url(../css/satoshi.css);
+
+
+
+
+*{
+    font-family: "Satoshi", sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+
+.wrapper{
+    padding-top: 150px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+    position: relative;
+
+}
+
+.profile-card{
+    background: #ececec;
+    width: 400px;
+    padding: 3rem;
+    border-radius: 10px;
+    min-height: 320px;
+    position: relative;
+    color: #4580BFff;
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.profile-card .profile-icon{
+    margin-top: 15;
+    overflow: hidden;
+    background: rgb(231, 243, 255);
+    font-size: 60px;
+    border-radius: 50px;
+    width: 120px; /* Adicione uma largura e altura iguais para garantir um círculo perfeito */
+    height: 120px;
+    text-align: center; /* Centralize o ícone */
+    line-height: 120px;
+}
+
+.profile-card .profile-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.profile-card .contact-info{
+    margin-top: 5px;
+    padding: 15px;
+    border-radius: 10px;
+    width: 100%;
+    color: white;
+    display: flex; /* Adicionando display flex para transformar em flex container */
+    flex-direction: column; /* Definindo a direção do flex container para coluna */
+    justify-content: center; 
+    align-items: center;
+    
+
+}
+
+.profile-card .contact-info .row{
+    color: #4580BFff;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    border-bottom: 1px solid #A5CF7Eff;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+.contact-info .row .icon{
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgb(231, 243, 255);
+    color: #4580BFff;
+    text-decoration: none !important;
+}
+
+.row .content{
+    min-width: 70%;
+}
+
+.row .content span{
+    font-size: 12px;
+}
+
+
+/* sobre mim */
+
+.about{
+    background-color: #ececec;
+    max-width: 800px;
+    padding: 2rem 3rem;
+    border-radius: 10px;
+}
+.about h1{
+    color: #4580BFff;
+    margin-bottom: 1.1rem;
+    position: relative;
+    display: inline-block;
+    font-size: 3.5rem;
+}
+.about h1::after{
+    position: absolute;
+    content: "";
+    top:50%;
+    right:-50%;
+    width:45%;
+    height: 3px;
+    background: #A5CF7Eff;
+}
+.about h2{
+    color:#4580BFff;
+    font-size: 2rem;
+    margin:0.5rem 0;
+}
+.about p{
+    color:#555;
+    margin:1.5rem 0;
+}
+
+.about .work{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+}
+.work .workbox{
+    display: flex;
+    justify-content: space-between;
+    border-radius:8px;
+    border:1px solid #333;
+    padding: 1rem;
+    margin:1rem;
+
+}
+.work .workbox .desc{
+    width:75%;
+    color:#555;
+}
+.work .workbox .desc h3{
+    color:#f2f2f2;
+    margin-bottom: 3px;
+}
+.work .workbox .desc p{
+    margin:0px;
+}
+/***Responsive Design ***/
+@media(max-width:768px)
+{
+    .about{
+        width: 1005;
+        max-width: 400px;
+        padding:1rem;
+        margin:1rem;
+
+    }
+    .about h1{
+        font-size: 2.2rem;
+    }
+    .about .work{
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(4,auto);
+    }
+}

@@ -9,3 +9,21 @@
 #projetos_descricao{
     padding-top: 140px;
 }
+
+.button_interesse {
+    font-weight: 700;
+    font-size: 14px;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 10px 24px;
+}
+
+.button_interesse {
+    background-color: var(--tufts-blue);
+    color: white;
+}
+
+.button_interesse:hover{
+    background-color: var(--pistachio);
+    color: white;
+}
