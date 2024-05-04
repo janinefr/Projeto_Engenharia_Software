@@ -13,10 +13,10 @@
 
 
 .wrapper{
-    padding-top: 150px;
+    padding-top: 100px;
 }
 
-.container{
+/* .container{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -25,9 +25,11 @@
     flex-wrap: wrap;
     position: relative;
 
-}
+} */
 
 .profile-card{
+    position: fixed;
+    top: 0;
     background: #ececec;
     width: 400px;
     padding: 3rem;
@@ -109,11 +111,14 @@
 /* sobre mim */
 
 .about{
+    width: 900px;
     background-color: #ececec;
     max-width: 800px;
     padding: 2rem 3rem;
     border-radius: 10px;
+    margin-bottom: 100px;
 }
+
 .about h1{
     color: #4580BFff;
     margin-bottom: 1.1rem;
